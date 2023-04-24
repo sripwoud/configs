@@ -1,0 +1,38 @@
+{
+  "name": "@3pwd/eslint-config-react",
+  "description": "Shared eslint configuration for react apps",
+  "main": ".eslintrc.yaml",
+  "files": [
+    ".eslintrc.yaml",
+    ".eslintignore",
+    "postinstall.sh"
+  ],
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript",
+    "standard",
+    "prettier"
+  ],
+  "author": "3pwd",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.6",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sort": "^2.4.0",
+    "eslint-plugin-testing-library": "^5.9.1"
+  },
+  "gitHead": "f2e9319effba75756d9c1fdae32e5f542dcf6233"
+}

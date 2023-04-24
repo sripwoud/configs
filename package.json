@@ -1,0 +1,14 @@
+{
+  "name": "@3pwd/config",
+  "author": "3pwd",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules && lerna clean",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "lerna": "^6.1.0"
+  }
+}

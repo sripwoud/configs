@@ -1,0 +1,14 @@
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+build
+
+# Jest
+coverage
+
+# JetBrains IDE
+.idea
+
+src/react-app-env.d.ts
