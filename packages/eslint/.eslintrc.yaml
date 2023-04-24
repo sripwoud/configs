@@ -1,0 +1,23 @@
+plugins: ['@typescript-eslint', 'jest', 'sort']
+extends:
+  [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:sort/recommended',
+    'plugin:jest/recommended',
+    'standard-with-typescript',
+    'prettier',
+  ]
+parser: '@typescript-eslint/parser'
+parserOptions:
+  project: ['./tsconfig.json']
+root: true
+rules:
+  '@typescript-eslint/ban-ts-comment': warn
+  '@typescript-eslint/explicit-function-return-type': off
+  '@typescript-eslint/return-await': off
+  import/newline-after-import: warn
+  no-console: warn
+  no-useless-constructor: warn
+env:
+  'jest/globals': true

@@ -1,0 +1,27 @@
+{
+  "name": "@3pwd/prettier-config",
+  "description": "Shared prettier configuration",
+  "main": ".prettierrc.json",
+  "files": [
+    ".prettierrc.json",
+    ".prettierignore",
+    "postinstall.sh"
+  ],
+  "keywords": [
+    "prettier",
+    "configuration",
+    "standard"
+  ],
+  "author": "3pwd",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "js-yaml .prettierrc.yaml > .prettierrc.json"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.1"
+  },
+  "gitHead": "f2e9319effba75756d9c1fdae32e5f542dcf6233"
+}
