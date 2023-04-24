@@ -1,7 +1,7 @@
 {
-  "name": "@3pwd/eslint-config",
-  "version": "1.0.0",
-  "description": "Shared eslint configuration",
+  "name": "@3pwd/eslint-config-with-jest",
+  "version": "0.0.0",
+  "description": "Shared eslint configuration with Jest",
   "main": ".eslintrc.yaml",
   "files": [
     ".eslintrc.yaml",
@@ -11,9 +11,10 @@
   "keywords": [
     "eslint",
     "config",
-    "typescript",
+    "jest",
+    "prettier",
     "standard",
-    "prettier"
+    "typescript"
   ],
   "author": "3pwd",
   "license": "MIT",
@@ -27,6 +28,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^24.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.6",
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sort": "^2.4.0"

@@ -7,5 +7,8 @@ yarn.lock
 build
 dist
 
+# Jest
+coverage
+
 # JetBrains IDE
 .idea
