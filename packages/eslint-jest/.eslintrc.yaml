@@ -1,9 +1,10 @@
-plugins: ['@typescript-eslint', 'sort']
+plugins: ['@typescript-eslint', 'jest', 'sort']
 extends:
   [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:sort/recommended',
+    'plugin:jest/recommended',
     'standard-with-typescript',
     'prettier',
   ]
@@ -18,3 +19,5 @@ rules:
   import/newline-after-import: warn
   no-console: warn
   no-useless-constructor: warn
+env:
+  'jest/globals': true
