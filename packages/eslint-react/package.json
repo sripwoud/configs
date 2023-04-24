@@ -1,5 +1,6 @@
 {
   "name": "@3pwd/eslint-config-react",
+  "version": "0.0.0",
   "description": "Shared eslint configuration for react apps",
   "main": ".eslintrc.yaml",
   "files": [
