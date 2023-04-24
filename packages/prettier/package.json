@@ -1,5 +1,6 @@
 {
   "name": "@3pwd/prettier-config",
+  "version": "0.0.0",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.json",
   "files": [
