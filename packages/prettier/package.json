@@ -3,16 +3,8 @@
   "version": "1.0.1",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.json",
-  "files": [
-    ".prettierrc.json",
-    ".prettierignore",
-    "postinstall.sh"
-  ],
-  "keywords": [
-    "prettier",
-    "configuration",
-    "standard"
-  ],
+  "files": [".prettierrc.json", ".prettierignore", "postinstall.sh"],
+  "keywords": ["prettier", "configuration", "standard"],
   "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {

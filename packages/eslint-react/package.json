@@ -3,18 +3,8 @@
   "version": "1.0.0",
   "description": "Shared eslint configuration for react apps",
   "main": ".eslintrc.yaml",
-  "files": [
-    ".eslintrc.yaml",
-    ".eslintignore",
-    "postinstall.sh"
-  ],
-  "keywords": [
-    "eslint",
-    "config",
-    "typescript",
-    "standard",
-    "prettier"
-  ],
+  "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
+  "keywords": ["eslint", "config", "typescript", "standard", "prettier"],
   "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {

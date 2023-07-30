@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Shared eslint configuration with Jest",
   "main": ".eslintrc.yaml",
-  "files": [
-    ".eslintrc.yaml",
-    ".eslintignore",
-    "postinstall.sh"
-  ],
+  "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
   "keywords": [
     "eslint",
     "config",
