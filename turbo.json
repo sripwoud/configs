@@ -1,6 +1,9 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
+    "build": {
+      "outputs": ["prettier/.prettierrc.json"]
+    },
     "//#_format": {
       "inputs": ["*.{json,md,yaml,yml}", "!node_modules/**"]
     },

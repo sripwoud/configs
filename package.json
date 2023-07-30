@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "turbo run build",
     "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
     "_format": "prettier -c .",
     "format": "turbo run _format",

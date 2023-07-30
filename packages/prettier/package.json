@@ -11,7 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "js-yaml .prettierrc.yaml > .prettierrc.json"
+    "build": "js-yaml .prettierrc.yaml > .prettierrc.json"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"

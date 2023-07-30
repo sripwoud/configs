@@ -1,6 +1,8 @@
 # Shared Configurations
 
 - [eslint](./packages/eslint)
+- [eslint-react](./packages/eslint-react)
+- [eslint-jest](./packages/eslint-jest)
 - [prettier](./packages/prettier)
 
 ## Install
