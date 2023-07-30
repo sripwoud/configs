@@ -1,5 +1,5 @@
 {
-  "name": "@3pwd/prettier-config",
+  "name": "@sripwoud/prettier-config",
   "version": "1.0.1",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.json",
@@ -13,7 +13,7 @@
     "configuration",
     "standard"
   ],
-  "author": "3pwd",
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

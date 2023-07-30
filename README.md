@@ -4,7 +4,7 @@
 
 ## Install
 ```shell
-pnpm add -D @3pwd/eslint-config  @3pwd/prettier-config
+pnpm add -D @sripwoud/eslint-config  @sripwoud/prettier-config
 ```
 ## Publish
 `lerna publish`

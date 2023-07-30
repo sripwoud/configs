@@ -1,5 +1,5 @@
 {
-  "name": "@3pwd/eslint-config-react",
+  "name": "@sripwoud/eslint-config-react",
   "version": "1.0.0",
   "description": "Shared eslint configuration for react apps",
   "main": ".eslintrc.yaml",
@@ -15,7 +15,7 @@
     "standard",
     "prettier"
   ],
-  "author": "3pwd",
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

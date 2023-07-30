@@ -1,5 +1,5 @@
 {
-  "name": "@3pwd/eslint-config",
+  "name": "@sripwoud/eslint-config",
   "version": "1.0.1",
   "description": "Shared eslint configuration",
   "main": ".eslintrc.yaml",
@@ -15,7 +15,7 @@
     "standard",
     "prettier"
   ],
-  "author": "3pwd",
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
