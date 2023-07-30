@@ -1,0 +1,11 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "//#_format": {
+      "inputs": ["*.{json,md,yaml,yml}", "!node_modules/**"]
+    },
+    "//#_format.fix": {
+      "inputs": ["*.{json,md,yaml,yml}", "!node_modules/**"]
+    }
+  }
+}
