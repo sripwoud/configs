@@ -12,5 +12,6 @@ pnpm add -D @sripwoud/eslint-config  @sripwoud/prettier-config
 ```
 
 ## Development
+
 - add changeset: `changeset`
 - publish: `pnpm publish-packages`
