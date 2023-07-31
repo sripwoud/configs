@@ -13,4 +13,4 @@ pnpm add -D @sripwoud/eslint-config  @sripwoud/prettier-config
 
 ## Publish
 
-`lerna publish`
+`pnpm publish-packages`
