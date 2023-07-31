@@ -1,14 +1,16 @@
-name: Static Analysis
+name: Release
+
 on:
-  workflow_dispatch:
-  pull_request:
-    types: [opened, synchronize, reopened]
-    paths-ignore: ['**/.*ignore', 'pnpm-lock.yaml', '.tool-versions']
+  push:
+    branches:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  validate:
+  release:
+    name: Release
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -37,16 +39,13 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: ${{ runner.os }}-pnpm-store-
 
-      - name: Setup turbo cache
-        id: turbo-cache
-        uses: actions/cache@v3
-        with:
-          path: .turbo
-          key: turbo-${{ github.job }}-${{ github.ref_name }}-${{ github.sha }}
-          restore-keys: turbo-${{ github.job }}-${{ github.ref_name }}-
-
       - name: Install
         run: pnpm i --ignore-scripts
 
-      - name: Format
-        run: pnpm format
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
+        with:
+          publish: pnpm publish-packages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
