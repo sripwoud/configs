@@ -11,7 +11,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "js-yaml .prettierrc.yaml > .prettierrc.json"
+    "build": "js-yaml .prettierrc.yaml > .prettierrc.json",
+    "postinstall": "bash ./postinstall.sh"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"
