@@ -1,6 +1,6 @@
 {
   "name": "@sripwoud/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Shared eslint configuration",
   "main": ".eslintrc.yaml",
   "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
