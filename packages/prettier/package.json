@@ -1,6 +1,6 @@
 {
   "name": "@sripwoud/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.json",
   "files": [".prettierrc.json", ".prettierignore", "postinstall.sh"],
