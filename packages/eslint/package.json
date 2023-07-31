@@ -1,21 +1,11 @@
 {
-  "name": "@3pwd/eslint-config",
-  "version": "1.0.1",
+  "name": "@sripwoud/eslint-config",
+  "version": "1.0.0",
   "description": "Shared eslint configuration",
   "main": ".eslintrc.yaml",
-  "files": [
-    ".eslintrc.yaml",
-    ".eslintignore",
-    "postinstall.sh"
-  ],
-  "keywords": [
-    "eslint",
-    "config",
-    "typescript",
-    "standard",
-    "prettier"
-  ],
-  "author": "3pwd",
+  "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
+  "keywords": ["eslint", "config", "typescript", "standard", "prettier"],
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

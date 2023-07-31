@@ -1,21 +1,11 @@
 {
-  "name": "@3pwd/eslint-config-react",
+  "name": "@sripwoud/eslint-config-react",
   "version": "1.0.0",
   "description": "Shared eslint configuration for react apps",
   "main": ".eslintrc.yaml",
-  "files": [
-    ".eslintrc.yaml",
-    ".eslintignore",
-    "postinstall.sh"
-  ],
-  "keywords": [
-    "eslint",
-    "config",
-    "typescript",
-    "standard",
-    "prettier"
-  ],
-  "author": "3pwd",
+  "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
+  "keywords": ["eslint", "config", "typescript", "standard", "prettier"],
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

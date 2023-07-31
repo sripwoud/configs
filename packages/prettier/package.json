@@ -1,25 +1,17 @@
 {
-  "name": "@3pwd/prettier-config",
-  "version": "1.0.1",
+  "name": "@sripwoud/prettier-config",
+  "version": "1.0.0",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.json",
-  "files": [
-    ".prettierrc.json",
-    ".prettierignore",
-    "postinstall.sh"
-  ],
-  "keywords": [
-    "prettier",
-    "configuration",
-    "standard"
-  ],
-  "author": "3pwd",
+  "files": [".prettierrc.json", ".prettierignore", "postinstall.sh"],
+  "keywords": ["prettier", "configuration", "standard"],
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prepare": "js-yaml .prettierrc.yaml > .prettierrc.json"
+    "build": "js-yaml .prettierrc.yaml > .prettierrc.json"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"

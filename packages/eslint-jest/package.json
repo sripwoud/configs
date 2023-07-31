@@ -1,13 +1,9 @@
 {
-  "name": "@3pwd/eslint-config-with-jest",
+  "name": "@sripwoud/eslint-config-with-jest",
   "version": "1.0.0",
   "description": "Shared eslint configuration with Jest",
   "main": ".eslintrc.yaml",
-  "files": [
-    ".eslintrc.yaml",
-    ".eslintignore",
-    "postinstall.sh"
-  ],
+  "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
   "keywords": [
     "eslint",
     "config",
@@ -16,7 +12,7 @@
     "standard",
     "typescript"
   ],
-  "author": "3pwd",
+  "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
