@@ -3,15 +3,25 @@
   "version": "1.0.1",
   "description": "Shared eslint configuration",
   "main": ".eslintrc.yaml",
-  "files": [".eslintrc.yaml", ".eslintignore", "postinstall.sh"],
-  "keywords": ["eslint", "config", "typescript", "standard", "prettier"],
+  "files": [
+    ".eslintrc.yaml",
+    ".eslintignore",
+    "postinstall.js"
+  ],
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript",
+    "standard",
+    "prettier"
+  ],
   "author": "sripwoud",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "postinstall": "bash ./postinstall.sh"
+    "postinstall": " node postinstall"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.1",

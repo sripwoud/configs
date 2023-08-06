@@ -6,7 +6,7 @@
   "files": [
     ".prettierrc.json",
     ".prettierignore",
-    "postinstall.sh"
+    "postinstall.js"
   ],
   "keywords": [
     "prettier",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "js-yaml .prettierrc.yaml > .prettierrc.json",
-    "postinstall": "bash ./postinstall.sh"
+    "postinstall": "node postinstall"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"
