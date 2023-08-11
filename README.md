@@ -16,4 +16,3 @@ pnpm add -D @sripwoud/<package-name>
 
 - add changeset: `changeset`
 - publish: `pnpm publish-packages` (or let the `release.yml` workflow do it for you)
-
