@@ -1,0 +1,16 @@
+{
+  "name": "@sripwoud/tsconfig",
+  "version": "0.0.1",
+  "description": "Shared TypeScript config for my projects",
+  "main": "tsconfig.json",
+  "files": ["tsconfig.json"],
+  "repository": "https://github.com/sripwoud/configs/tree/main/packages/tsconfig",
+
+  "keywords": ["ts", "typescript", "config", "tsconfig", "configuration"],
+  "author": {
+    "name": "sripwoud",
+    "email": "me@sripwoud.xyz",
+    "url": "https://sripwoud.xyz"
+  },
+  "license": "MIT"
+}
