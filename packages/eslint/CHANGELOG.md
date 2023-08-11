@@ -1,5 +1,11 @@
 # @sripwoud/eslint-config
 
+## 1.0.3
+
+### Patch Changes
+
+- 28572f0: Release tsconfig
+
 ## 1.0.2
 
 ### Patch Changes
