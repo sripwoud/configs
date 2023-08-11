@@ -4,13 +4,15 @@
   "description": "Shared TypeScript config for my projects",
   "main": "tsconfig.json",
   "files": ["tsconfig.json"],
-  "repository": "https://github.com/sripwoud/configs/tree/main/packages/tsconfig",
-
   "keywords": ["ts", "typescript", "config", "tsconfig", "configuration"],
+  "repository": "https://github.com/sripwoud/configs/tree/main/packages/tsconfig",
   "author": {
     "name": "sripwoud",
     "email": "me@sripwoud.xyz",
     "url": "https://sripwoud.xyz"
   },
-  "license": "MIT"
+  "license": "MIT",
+    "publishConfig": {
+    "access": "public"
+  }
 }

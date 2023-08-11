@@ -11,9 +11,15 @@
   "keywords": [
     "prettier",
     "configuration",
+    "config",
     "standard"
   ],
-  "author": "sripwoud",
+  "repository": "https://github.com/sripwoud/configs/tree/main/packages/prettier",
+  "author": {
+    "name": "sripwoud",
+    "email": "me@sripwoud.xyz",
+    "url": "https://sripwoud.xyz"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"

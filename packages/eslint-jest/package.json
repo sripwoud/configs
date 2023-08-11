@@ -11,12 +11,18 @@
   "keywords": [
     "eslint",
     "config",
+    "configuration",
     "jest",
     "prettier",
     "standard",
     "typescript"
   ],
-  "author": "sripwoud",
+  "repository": "https://github.com/sripwoud/configs/tree/main/packages/eslint-jest",
+  "author": {
+    "name": "sripwoud",
+    "email": "me@sripwoud.xyz",
+    "url": "https://sripwoud.xyz"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"
