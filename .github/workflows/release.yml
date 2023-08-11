@@ -47,5 +47,5 @@ jobs:
         with:
           publish: pnpm publish-packages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }} # https://stackoverflow.com/a/69169858/9771158
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
