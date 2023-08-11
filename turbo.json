@@ -6,7 +6,11 @@
       "outputs": [".prettierrc.json"]
     },
     "//#_format": {
-      "inputs": ["*.{json,md,yaml,yml}", "!node_modules/**"]
+      "inputs": [
+        "*.{json,md,yaml,yml}",
+        "packages/tsconfig/tsconfig.json",
+        "!node_modules/**"
+      ]
     },
     "//#_format.fix": {
       "inputs": ["*.{json,md,yaml,yml}", "!node_modules/**"]
