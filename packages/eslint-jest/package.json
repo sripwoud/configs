@@ -1,6 +1,6 @@
 {
   "name": "@sripwoud/eslint-config-with-jest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared eslint configuration with Jest",
   "main": ".eslintrc.yaml",
   "files": [
