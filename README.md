@@ -3,6 +3,7 @@
 - [eslint](./packages/eslint)
 - [eslint-react](./packages/eslint-react)
 - [eslint-jest](./packages/eslint-jest)
+- [jest](./packages/jest)
 - [prettier](./packages/prettier)
 - [tsconfig](./packages/tsconfig)
 
