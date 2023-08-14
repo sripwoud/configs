@@ -1,6 +1,6 @@
 {
   "name": "@sripwoud/jest",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shared Jest config for my projects",
   "files": [
     "jest-preset.js.json"

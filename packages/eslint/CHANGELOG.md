@@ -1,5 +1,11 @@
 # @sripwoud/eslint-config
 
+## 1.0.4
+
+### Patch Changes
+
+- dd4ada6: Publish jest config. Format eslint config pkgs
+
 ## 1.0.3
 
 ### Patch Changes
