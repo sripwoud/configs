@@ -1,5 +1,11 @@
 # @sripwoud/jest
 
+## 1.0.1
+
+### Patch Changes
+
+- c9529a8: Add @types/jest devDependency
+
 ## 1.0.0
 
 ### Major Changes
