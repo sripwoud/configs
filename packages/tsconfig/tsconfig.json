@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true, // override in tsconfig.compile.json, that way you can benefit from typechecking in e.g. test files
     "target": "ES2022" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "jsx": "react",
     "experimentalDecorators": true,
@@ -8,7 +9,7 @@
     "moduleDetection": "force",
     "moduleResolution": "node16",
 
-    "resolveJsonModule": false, // ESM doesn't yet support JSON modules.
+    "resolveJsonModule": true,
     "allowJs": true,
     "checkJs": true,
 
