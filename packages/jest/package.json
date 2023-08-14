@@ -1,9 +1,10 @@
 {
   "name": "@sripwoud/jest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared Jest config for my projects",
   "files": [
-    "jest-preset.js", "setup.ts"
+    "jest-preset.js",
+    "setup.ts"
   ],
   "keywords": [
     "jest",

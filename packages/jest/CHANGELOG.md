@@ -1,5 +1,11 @@
 # @sripwoud/jest
 
+## 1.0.2
+
+### Patch Changes
+
+- 6defc75: Fix jest-preset.js
+
 ## 1.0.1
 
 ### Patch Changes
