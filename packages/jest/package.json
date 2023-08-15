@@ -3,15 +3,14 @@
   "version": "1.0.3",
   "description": "Shared Jest config for my projects",
   "files": [
-    "jest-preset.js",
-    "setup.ts"
+    "jest-preset.js"
   ],
   "keywords": [
     "jest",
     "config",
     "configuration"
   ],
-  "repository": "https://github.com/sripwoud/configs/tree/main/packages/tsconfig",
+  "repository": "https://github.com/sripwoud/configs/tree/main/packages/jest",
   "author": {
     "name": "sripwoud",
     "email": "me@sripwoud.xyz",
@@ -22,10 +21,8 @@
     "access": "public"
   },
   "dependencies": {
-    "jest-chain": "^1.1.6",
-    "jest-extended": "^4.0.1",
-    "jest-fetch-mock": "^3.0.3",
-    "reflect-metadata": "^0.1.13",
+    "jest-watch-select-projects": "^2.0.0",
+    "jest-watch-typeahead": "^2.2.2",
     "ts-jest": "^29.1.1"
   }
 }
