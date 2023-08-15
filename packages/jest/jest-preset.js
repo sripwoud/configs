@@ -7,7 +7,7 @@ module.exports = {
   ...tsJestPreset,
   clearMocks: true,
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!**/*.d.ts'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.{js,jsx,ts,tsx}', '!**/*.d.ts'],
   coverageThreshold: {
     global: {
       branches: 90,
@@ -23,7 +23,6 @@ module.exports = {
     '<rootDir>/src',
   ],
   moduleFileExtensions: ['js', 'json', 'ts'],
-  setupFilesAfterEnv: [require.resolve('./setup.ts')],
   testPathIgnorePatterns: [
     'coverage',
     'dist',
