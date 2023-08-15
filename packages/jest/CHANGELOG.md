@@ -1,5 +1,11 @@
 # @sripwoud/jest
 
+## 1.1.0
+
+### Minor Changes
+
+- 5580ef4: Fix jest package.json
+
 ## 1.0.3
 
 ### Patch Changes
