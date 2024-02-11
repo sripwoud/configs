@@ -16,7 +16,7 @@
     "email": "me@sripwoud.xyz",
     "url": "https://sripwoud.xyz"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "publishConfig": {
     "access": "public"
   },

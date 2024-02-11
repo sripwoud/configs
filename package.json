@@ -1,7 +1,7 @@
 {
   "name": "@sripwoud/config",
   "author": "sripwoud",
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "private": true,
   "scripts": {
     "build": "turbo run build",
