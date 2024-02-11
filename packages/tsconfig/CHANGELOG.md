@@ -1,5 +1,11 @@
 # @sripwoud/tsconfig
 
+## 1.1.1
+
+### Patch Changes
+
+- f96d2ae: Update LICENSE
+
 ## 1.1.0
 
 ### Minor Changes

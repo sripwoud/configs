@@ -1,5 +1,11 @@
 # @sripwoud/prettier-config
 
+## 1.0.5
+
+### Patch Changes
+
+- f96d2ae: Update LICENSE
+
 ## 1.0.4
 
 ### Patch Changes
