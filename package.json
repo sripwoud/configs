@@ -10,7 +10,7 @@
     "format": "turbo run _format",
     "_format.fix": "prettier -w .",
     "format.fix": "turbo run _format.fix",
-    "publish-packages": "turbo run _format build && changeset version && changeset publish"
+    "publish-packages": "turbo run build && changeset version && changeset publish"
   },
   "devDependencies": {
     "js-yaml": "^4.1.0",
