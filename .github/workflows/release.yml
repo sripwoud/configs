@@ -15,10 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
+          registry-url: 'https://npm.pkg.github.com'
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.4
@@ -48,4 +49,4 @@ jobs:
           publish: pnpm publish-packages
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} # https://stackoverflow.com/a/69169858/9771158
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
