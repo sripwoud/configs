@@ -6,7 +6,8 @@
   "files": [
     ".dprint.ts.jsonc",
     ".dprint.yaml.jsonc",
-    ".dprint.jsonc"
+    ".dprint.jsonc",
+    "postinstall.js"
   ],
   "keywords": [
     "formatter",
