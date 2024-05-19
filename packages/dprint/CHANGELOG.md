@@ -1,5 +1,11 @@
 # @sripwoud/dprint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- a17a868: Add `dprint` to `peerDependencies`
+
 ## 1.0.1
 
 ### Patch Changes
