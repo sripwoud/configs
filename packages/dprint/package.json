@@ -1,6 +1,6 @@
 {
   "name": "@sripwoud/dprint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sripwoud's dprint configuration",
   "main": ".dprint.jsonc",
   "files": [
