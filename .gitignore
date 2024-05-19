@@ -1,6 +1,8 @@
 node_modules
 *.log
 .prettierrc.json
+.prettierrc.yaml
+!packages/prettier/.prettierrc.yaml
 .prettierignore
 !packages/prettier/.prettierignore
 .eslintrc.yaml
@@ -8,4 +10,3 @@ node_modules
 .eslintignore
 !packages/**/.eslintignore
 .turbo
-
