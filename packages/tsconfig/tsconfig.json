@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "noEmit": true, // override in tsconfig.compile.json, that way you can benefit from typechecking in e.g. test files
-    "target": "ES2022" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "target": "ES2022", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "jsx": "react",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,

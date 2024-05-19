@@ -1,11 +1,14 @@
 node_modules
+package-lock.json
 pnpm-lock.yaml
+yarn.lock
 
-# changeset gh action may not respect the formatting in these files
-.changeset
-package.json
+# TS build dir
+build
+dist
 
-# handled by dprint
-*.jsonc
+# Jest
+coverage
 
-.turbo
+# JetBrains IDE
+.idea
