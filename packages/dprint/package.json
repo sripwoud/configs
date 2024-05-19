@@ -1,9 +1,12 @@
 {
   "name": "@sripwoud/dprint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "sripwoud's dprint configuration",
   "main": ".dprint.jsonc",
-  "files": [".dprint.jsonc", "postinstall.js"],
+  "files": [
+    ".dprint.jsonc",
+    "postinstall.js"
+  ],
   "keywords": [
     "formatter",
     "dprint",
