@@ -1,5 +1,11 @@
 # @sripwoud/dprint-config
 
+## 1.0.3
+
+### Patch Changes
+
+- 0c0d4b5: Use urls in extends instead of relative paths
+
 ## 1.0.2
 
 ### Patch Changes
