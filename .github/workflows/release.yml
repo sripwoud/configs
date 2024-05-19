@@ -4,11 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      [
-        '.github/workflow/release.yml',
-        '.changeset/*.md',
-        '**/package.json',
-      ]
+      ['.github/workflow/release.yml', '.changeset/*.md', '**/package.json']
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
