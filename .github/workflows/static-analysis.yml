@@ -1,9 +1,9 @@
-name: Static Analysis
+name: Pull Request
 on:
   workflow_dispatch:
   pull_request:
     types: [opened, synchronize, reopened]
-    paths-ignore: ['**/.*ignore', 'pnpm-lock.yaml', '.tool-versions']
+    paths-ignore: ['pnpm-lock.yaml', '.tool-versions']
 
 jobs:
   validate:
@@ -49,4 +49,4 @@ jobs:
         run: pnpm i --ignore-scripts
 
       - name: Format
-        run: pnpm format
+        run: pnpm check

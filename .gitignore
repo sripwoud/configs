@@ -1,6 +1,11 @@
 node_modules
-.idea
 *.log
 .prettierrc.json
+.prettierignore
+!packages/prettier/.prettierignore
+.eslintrc.yaml
+!packages/**/.eslintrc.yaml
+.eslintignore
+!packages/**/.eslintignore
 .turbo
 
