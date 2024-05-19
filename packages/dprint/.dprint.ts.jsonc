@@ -1,0 +1,8 @@
+{
+  "typescript": {
+    "quoteProps": "asNeeded",
+    "quoteStyle": "preferSingle",
+    "semiColons": "asi",
+    "useBraces": "preferNone",
+  },
+}

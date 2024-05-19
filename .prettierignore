@@ -5,4 +5,7 @@ pnpm-lock.yaml
 .changeset
 package.json
 
+# handled by dprint
+*.jsonc
+
 .turbo

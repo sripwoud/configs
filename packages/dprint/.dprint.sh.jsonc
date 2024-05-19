@@ -1,0 +1,10 @@
+{
+  "exec": {
+    "commands": [
+      {
+        "command": "pnpm exec shfmt -i 2 || yarn exec shfmt -i 2 || npm exec shfmt -i 2",
+        "exts": ["bash", "sh"],
+      },
+    ],
+  },
+}
