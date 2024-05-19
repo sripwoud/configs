@@ -12,6 +12,7 @@
     "_format.fix": "prettier -w .",
     "format.fix": "turbo run _format.fix"
   },
+  "packageManager":"pnpm@9.0.5",
   "devDependencies": {
     "js-yaml": "^4.1.0",
     "prettier": "^3.0.0",

@@ -7,7 +7,7 @@ on:
       [
         '.github/workflow/release.yml',
         '.changeset/*.md',
-        'packages/**/package.json',
+        '**/package.json',
       ]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
