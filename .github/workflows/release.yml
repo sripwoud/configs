@@ -1,10 +1,16 @@
 name: Release
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
-      ['.github/workflow/release.yml', '.changeset/*.md', '**/package.json']
+      [
+        '.github/workflow/release.yml',
+        '.changeset/*.md',
+        '**/package.json',
+        'pnpm-lock.yaml',
+      ]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
