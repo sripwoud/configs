@@ -1,0 +1,32 @@
+{
+  "name": "@sripwoud/dprint-config",
+  "version": "0.0.1",
+  "description": "sripwoud's dprint configuration",
+  "main": ".dprint.jsonc",
+  "files": [
+    ".dprint.ts.jsonc",
+    ".dprint.yaml.jsonc",
+    ".dprint.jsonc"
+  ],
+  "keywords": [
+    "formatter",
+    "dprint",
+    "configuration"
+  ],
+  "repository": "https://github.com/sripwoud/configs/tree/main/packages/dprint",
+  "author": {
+    "name": "sripwoud",
+    "email": "me@sripwoud.xyz",
+    "url": "https://sripwoud.xyz"
+  },
+  "license": "AGPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "fmt": "dprint fmt"
+  },
+  "dependencies": {
+    "dprint": "^0.45.1"
+  }
+}
