@@ -25,10 +25,9 @@
     "access": "public"
   },
   "scripts": {
-    "fmt": "dprint fmt",
     "postinstall": "node postinstall"
   },
-  "dependencies": {
+  "peerDependencies": {
     "dprint": "^0.45.1"
   }
 }
