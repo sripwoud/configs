@@ -1,5 +1,8 @@
 {
-  "extends": [".dprint.ts.jsonc", ".dprint.yaml.jsonc"],
+  "extends": [
+    "https://raw.githubusercontent.com/sripwoud/configs/main/packages/dprint/.dprint.ts.jsonc",
+    "https://raw.githubusercontent.com/sripwoud/configs/main/packages/dprint/.dprint.yaml.jsonc"
+  ],
   "excludes": [
     "**/coverage",
     "**/build",
