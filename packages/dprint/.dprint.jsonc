@@ -3,18 +3,6 @@
     "https://raw.githubusercontent.com/sripwoud/configs/main/packages/dprint/.dprint.ts.jsonc",
     "https://raw.githubusercontent.com/sripwoud/configs/main/packages/dprint/.dprint.yaml.jsonc",
   ],
-  "excludes": [
-    "**/coverage",
-    "**/build",
-    "**/dist",
-    "**/node_modules",
-    "**/out",
-    "**/target",
-    "**/tmp",
-    "**/vendor",
-    "**/*-lock.json",
-    "**/pnpm-lock.yaml",
-  ],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.90.5.wasm",
     "https://plugins.dprint.dev/json-0.19.2.wasm",
