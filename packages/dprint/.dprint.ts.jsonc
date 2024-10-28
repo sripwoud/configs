@@ -1,5 +1,6 @@
 {
   "typescript": {
+    "memberExpression.linePerExpression": true,
     "quoteProps": "asNeeded",
     "quoteStyle": "preferSingle",
     "semiColons": "asi",
